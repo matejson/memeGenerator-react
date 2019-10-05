@@ -5,7 +5,7 @@ $(document).on("mousemove", function(ev){
     var mouseX = ev.originalEvent.pageX
     var mouseY = ev.originalEvent.pageY
     
-    $("img").not(".intro").each(function () {
+    $("img").not(".troll").not(".head").each(function () {
         
         var imgX = $(this).position().left + 70
         var imgY = $(this).position().top + 70
@@ -27,7 +27,7 @@ $(document).on("mousemove", function(ev){
 
 var count = 0
 
-var images = ["img/mic1.svg", "img/mic2.svg", "img/mic3.svg"]
+var images = ["img/bender.ico", "img/leela.ico", "img/zoidberg.ico", "img/farnsworth.ico"]
 
 setInterval(function () {
     
@@ -36,7 +36,7 @@ setInterval(function () {
     
     var  image = images[count]
     
-    $("img").not(".intro").attr("src", image)
+    $("img").not(".troll").not(".head").attr("src", image)
     
     
     

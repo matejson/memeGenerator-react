@@ -3,7 +3,7 @@ import React from "react"
 function Header() {
     return (
         <header>
-            <img className="intro"
+            <img className="head"
                 src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" 
                 alt="Problem?"
             />
