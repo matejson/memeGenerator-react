@@ -1,4 +1,4 @@
-# Weather App
+# Meme Generator
 Application made in React throught which you can create your own meme
 
 ## Technologies used in this project:
