@@ -8,4 +8,5 @@ Application made in React throught which you can create your own meme
 
 
 # Preview
-https://media.giphy.com/media/mFGkF0ZonwRiSBwXfF/giphy.gif
+<a href="https://imgflip.com/gif/3fdf4k"><img src="https://media.giphy.com/media/mFGkF0ZonwRiSBwXfF/giphy.gif"></a>
+
